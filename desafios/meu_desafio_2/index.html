@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Tudo que eu aprendi em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Começa a ganhar os ceús</h1>
+    <h2>E todos te admiraram</h2>
+    <p>Com a tag &lt;ins&gt; &lt;/ins&gt; <ins>podemos sublinhar palavras</ins></p>
+    <br>
+    <p>Com a tag &lt;del&gt; &lt;/del&gt; <del>podemos marcar um texto como excluído</del> para que ele seja lido, mas não considerado.</p>
+    <br>
+    <p>Com a tag &lt;mark&gt; &lt;/mark&gt; <mark style="background-color: green;">podemos marcar um texto</mark>.</p>
+    <br>
+    <p>Com a tag &lt;sup&gt; &lt;/sup&gt; podemos colocar o texto com sobrescrito x<sup>20</sup>+3.</p>
+    <br>
+    <p>Com a tag &lt;sub&gt; &lt;/sub&gt; podemos colocar o texto como sobrescrito H<sub>2</sub>O.</p>
+    <br>
+    <p>Com a tag &lt;strong&gt; &lt;/strong&gt; <strong>podemos deixar o texto em negrito</strong>.</p>
+    <br>
+    <p>Com a tag &lt;em&gt; &lt;/em&gt; <em>podemos deixar o texto em ênfase</em>.</p>
+    <br>
+    <p>Com a tag &lt;big&gt; &lt;/big&gt; podemos deixar o tem <big>GRANDE</big></p>
+    <br>
+    <p>Com a tag &lt;small&gt; &lt;/small&gt; podemos deixar o texto <small>pequeno</small></p>
+    <br>
+    <p>Para formatar codigos usamos a tag &lt;code&gt &lt;/code&gt; e a tag &lt;pre&gt; &lt;/pre&gt; para formatar o codigo.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+        if num % 2 == 0:
+    print(f'O número {num} é PAR')
+        else:
+    print(f'O número {num} é ÍMPAR')
+        print('Fim do programa')
+        </code>
+    </pre>
+    <br>
+    <p>Para criar citações use a tag &lt;q&gt; &lt;/q&gt; <q>o computador é um burro muito rápido</q>.</p>
+    <br>
+    <p>A tag &lt;blockquote&gt; &lt;/bloquote&gt; é utilizada como referência bibliografica para o google.</p>
+    <br>
+    <p>A tag &lt;abbr&gt; &lt;/abbr&gt; é usada para abreviações <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr></p>
+    <br>
+    <p>A tag &lt;bdo&gt; &lt;/bdo&gt; é usada para inverter textos. <bdo dir="rtl">Eu sou o Kesley Brandon</bdo></p>
+    <br>
+    <p>Listas Ordenadas</p>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Levantar da cama</li>
+        <li>Escovar os dentes</li>
+        <li>Jogar água no rosto</li>
+        <li>Tomar café</li>
+    </ol>
+    <br>
+    <p>Lista não ordenadas</p>
+    <ul type="circle" >
+        <li>Estudar HTML5</li>
+        <li>Estudar CSS3</li>
+        <li>Estudar Bug Bounty</li>
+        <li>Estudar Redes</li>
+        <li>Estudar Python</li>
+    </ul>
+    <br>
+    <p>Listas Ordenadas e Listas Não Ordenadas</p>
+    <ol>
+        <li>Segunda</li>
+        <ul>
+            <li>Treinar Bíceps</li>
+            <li>Treinar Ombros</li>
+        </ul>
+        <li>Terça</li>
+        <ul>
+            <li>Treinar Costas</li>
+            <li>Treinar Peito</li>
+        </ul>
+        <li>Quarta</li>
+        <ul>
+            <li>Treinar Tríceps</li>
+            <li>Treinar Pernas</li>
+        </ul>
+        <li>Quinta</li>
+        <ul>
+            <li>Treinar Abdominal</li>
+            <li>Chutes</li>
+        </ul>
+        <li>Sexta</li>
+        <ul>
+            <li>Treino Livre</li>
+            <li>Treino Livre</li>
+        </ul>
+        <li>Sabádo</li>
+        <ul>
+            <li>Treinar Corda</li>
+            <li>Treinar Pernas</li>
+        </ul>
+        <li>Domingo</li>
+        <ul>
+            <li>Treinar Barra</li>
+            <li>Treinar Bíceps</li>
+        </ul>
+    </ol>
+    <br>
+    <p>Lista de Definições</p>
+    <dl>
+        <dt>HTML5</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação e interatividade de um site.</dd>
+    </dl>
+    <br>
+    <p>Links Externos</p>
+    <p>Acesse esse link para escutar uma música legal <a href="https://youtu.be/34Na4j8AVgA" target="_blank" rel="external">Clique aqui</a></p>
+
+    <p>Links Internos</p>
+    <p>Acesse a página 2 <a href="pag2.html" target="_self" rel="next">Clique aqui</a></p>
+    <br>
+    <p>Imagem Dinâmica</p>
+    <picture>
+        <source media="(max-width: 512px)" srcset="imagens/android-chrome-192x192.png" type="image/png">
+        <img src="imagens/android-chrome-512x512.png" alt="imagem flexível">
+    </picture>
+    <br>
+    <p>Reproduzindo áudio</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/digimon-yungbuda.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <p>Inserindo Vídeos</p>
+    <video width="560" height="315" controls autoplay loop>
+        <source src="midia/Meu-Video2.mp4" type="video/mp4">
+    </video>
+    <br>
+    <p>Inserindo Vídeo do Youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+
+</body>
+</html>

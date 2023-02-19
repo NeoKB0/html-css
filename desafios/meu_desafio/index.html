@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../desafio_5/icones/favicon.ico" type="image/x-icon">
+    <title>Tudo que eu sei fazer</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        mark{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é tudo que eu sei fazer em HTML5</h1>
+    <hr>
+    <p><strong>Lorem</strong> ipsum dolor, <em>sit amet consectetur</em> adipisicing elit. <del>Vero a <ins>in ducimus</ins> qui corporis</del> quam eos? Incidunt minima itaque officia, <mark>expedita</mark> nam ducimus <big>error</big>, <small>aperiam</small> adipisci inventore odio quae hic?</p>
+    <img src="../desafio_5/pirata_150.jpg" alt="foto minha">
+    <h2>Posso fazer simbolos</h2>
+    &reg; &conint; &yen;
+
+    <h2>Também posso fazer emojii</h2>
+    &#x1F596;  &#x1F913;
+
+    <marquee behavior="" direction="right">Olha só como eu tô ficando bom nisso</marquee>
+
+    <h2>sobrescrito e subscrito</h2>
+
+    <p>x<sup>20</sup>+3</p>
+    <p>h<sub>2</sub>O</p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque cupiditate quisquam rerum sed suscipit. <q>Neque, libero. Placeat, iste vero non debitis amet illo molestiae sed impedit. Suscipit necessitatibus quis officiis?</q></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eveniet, dolor ea ullam eligendi quod, beatae a soluta repudiandae <abbr title="Só testando">excepturi ut similique iure officia, quidem facilis vitae voluptate quia hic?</abbr></p>
+
+    <h2>Invertendo textos</h2>
+    <p><bdo dir="rtl">Oi Kesley</bdo></p>
+
+    <h2>Listas ordenadas</h2>
+    <ol type="A" start="3">
+        <li>Eu</li>
+        <li>quero</li>
+        <li>namorar</li>
+        <li>essa</li>
+        <li>menina</li>
+    </ol>
+
+    <h2>Lista não ordenadas</h2>
+    <ul type="square">
+        <li>Eu</li>
+        <li>vou</li>
+        <li>namorar</li>
+        <li>essa</li>
+        <li>menina</li>
+    </ul>
+
+    <h2>Lista de definições</h2>
+    <dt>Macarrão</dt>
+    <dd>Gosto muito</dd>
+    <dt>Pimenta</dt>
+    <dd>Arde demais</dd>
+
+    <h2>Listas ordenadas e não ordenadas</h2>
+    <ol>
+        <li>Deus</li>
+        <ul>
+            <li>Meu salvador</li>
+            <li>vai me ajudar a ser um hacker</li>
+            <li>e me deixar rico</li>
+            <li>e vai me ajudar a namorar a Anna</li>
+        </ul>
+        <li>Hacker</li>
+        <ul>
+            <li>Meu estado de espirito</li>
+            <li>O que eu nasci pra ser</li>
+        </ul>
+    </ol>
+
+    <h2>Trabalhando com Links</h2>
+    <h3>Links Externos</h3>
+    <p><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+
+    <h3>Links Internos</h3>
+    <p><a href="pag002.html" rel="next" target="_self">Clique aqui para ir para a página 2</a></p>
+
+    <h3>Links para downloads</h3>
+    <p><a href=""></a></p>
+
+
+    <picture>
+        <source media="(max-width: 510px)" srcset="pirata_150.jpg" type="image/jpg">
+        <img src="pirata.jpg" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/digimon-yungbuda.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
